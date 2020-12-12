@@ -1,4 +1,9 @@
-// A $( document ).ready() block.
+$(window).on("load",function(){
+	$(".LoadingGif .Loading-Anim").fadeOut(1800, function() {
+		$(".LoadingGif").fadeOut(1800);
+	});
+
+})
 $( document ).ready(function() {
 $('#slides').superslides({
     animation:"fade",

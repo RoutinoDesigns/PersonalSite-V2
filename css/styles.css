@@ -174,3 +174,17 @@ a {
   color: #777777;
   background-color: #fff;
 }
+.LoadingGif {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+.LoadingGif .Loading-Anim {
+  width: 100%;
+  height: 100%;
+  background: url(../images/Preloader_3Big.gif) center center no-repeat;
+}
